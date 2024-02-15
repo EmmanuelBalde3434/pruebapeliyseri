@@ -1,0 +1,58 @@
+.fila {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.tit {
+  margin-top: 0;
+  color: white;
+  background-color: #323030;
+  text-align: start;
+  height: 4rem;
+}
+
+.contenido {
+  height: 30rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imagenBoton {
+  width: 10rem;
+  height: 15rem;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  object-fit: contain;
+  margin-left: 2.5rem;
+}
+
+.imagenBoton img {
+  width: 10rem;
+  height: 15rem;
+  margin: 1.5rem;
+}
+
+.imagenBoton p {
+  height: 1.5rem;
+  margin-top: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  height: calc(100vh - 20px);
+
+}
